@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>Book.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #629755; font-style: italic;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #cc7832;}
+.s3 { color: #629755; font-weight: bold; font-style: italic;}
+.s4 { color: #808080;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Book.java</font>
+</center></td></tr></table>
+<pre><span class="s0">/**</span>
+ <span class="s0">* Represents a book with an ID, title, and author.</span>
+ <span class="s0">* Adam Abukhdair, CTSD Program, 2024-09-08</span>
+ <span class="s0">*/</span>
+<span class="s2">public class </span><span class="s1">Book {</span>
+    <span class="s2">private </span><span class="s1">String id</span><span class="s2">;</span>
+    <span class="s2">private </span><span class="s1">String title</span><span class="s2">;</span>
+    <span class="s2">private </span><span class="s1">String author</span><span class="s2">;</span>
+
+    <span class="s0">/**</span>
+     <span class="s0">* Constructor for a book object.</span>
+     <span class="s0">* </span><span class="s3">@param </span><span class="s0">id The unique identifier for the book.</span>
+     <span class="s0">* </span><span class="s3">@param </span><span class="s0">title The title of the book.</span>
+     <span class="s0">* </span><span class="s3">@param </span><span class="s0">author The author of the book.</span>
+     <span class="s0">*/</span>
+    <span class="s2">public </span><span class="s1">Book(String id</span><span class="s2">, </span><span class="s1">String title</span><span class="s2">, </span><span class="s1">String author) {</span>
+        <span class="s2">this</span><span class="s1">.id = id</span><span class="s2">;</span>
+        <span class="s2">this</span><span class="s1">.title = title</span><span class="s2">;</span>
+        <span class="s2">this</span><span class="s1">.author = author</span><span class="s2">;</span>
+    <span class="s1">}</span>
+
+    <span class="s4">// Getters for book properties.</span>
+    <span class="s2">public </span><span class="s1">String getId() { </span><span class="s2">return </span><span class="s1">id</span><span class="s2">; </span><span class="s1">}</span>
+    <span class="s2">public </span><span class="s1">String getTitle() { </span><span class="s2">return </span><span class="s1">title</span><span class="s2">; </span><span class="s1">}</span>
+    <span class="s2">public </span><span class="s1">String getAuthor() { </span><span class="s2">return </span><span class="s1">author</span><span class="s2">; </span><span class="s1">}</span>
+<span class="s1">}</span>
+</pre>
+</body>
+</html>
